@@ -1,6 +1,9 @@
 Continuous Integration Demo
 ===========================
 
+![Pytest](https://github.com/Napoldej/ci-demo/actions/workflows/python-app.yml/badge.svg)
+
+
 This project demonstrates use of Github Actions to build and test a Python project.  
 
 ## Automatic Testing
