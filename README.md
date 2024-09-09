@@ -1,8 +1,8 @@
 Continuous Integration Demo
 ===========================
 
-![Pytest](https://github.com/Napoldej/ci-demo/actions/workflows/python-app.yml/badge.svg)
-![Style-checking](https://github.com/Napoldej/ci-demo/actions/workflows/Run-flake8.yml/badge.svg)
+[![Run unit test](https://github.com/Napoldej/ci-demo/actions/workflows/python-app.yml/badge.svg)](https://github.com/Napoldej/ci-demo/actions/workflows/python-app.yml)
+[![Run flake8 test](https://github.com/Napoldej/ci-demo/actions/workflows/Run-flake8.yml/badge.svg)](https://github.com/Napoldej/ci-demo/actions/workflows/Run-flake8.yml)
 
 This project demonstrates use of Github Actions to build and test a Python project.  
 
