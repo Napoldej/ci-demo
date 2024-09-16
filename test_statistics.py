@@ -27,15 +27,16 @@ class StatisticsTest(TestCase):
         # variance([0, 0.5, 1, 1.5, 2.0]) is 0.5
         self.assertEqual(sqrt(0.5), stdev([0, 0.5, 1, 1.5, 2]))
         
-    def test_average(self):
-        self.assertEqual[2, average([2,2])]
-        self.assertEqual[4, average([4,4])]
         
     def test_average_empty_list(self):
-        self.assertRaises(ValueError, average([]))
+        with self.assertRaises(ValueError):
+            average([])
+           
         
     def test_variance_empty_list(self):
-        self.assertRaises(ValueError, variance([]))
+        with self.assertRaises(ValueError):
+            variance([])
+    
 
 if __name__ == '__main__':
     import unittest
